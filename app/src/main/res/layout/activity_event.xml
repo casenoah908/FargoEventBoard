@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="676dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="71dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/event_image"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:src="@mipmap/ic_launcher" />-->
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="415dp"
+                android:layout_height="320dp"
+                android:contentDescription="@string/eventimage"
+                tools:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/eventTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16sp"
+                android:paddingTop="24sp"
+                android:paddingRight="16sp"
+                android:text="@string/event"
+                android:textColor="@android:color/black"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/eventTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16sp"
+                android:paddingRight="16sp"
+                android:text="@string/time"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/eventDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16sp"
+                android:paddingTop="20sp"
+                android:paddingRight="16sp"
+                android:text="@string/event_description"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/eventAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16sp"
+                android:paddingTop="20sp"
+                android:paddingRight="16sp"
+                android:paddingBottom="20sp"
+                android:text="@string/location_address"
+                android:textColor="@color/EventYellow"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:backgroundTint="@android:color/darker_gray"
+                android:paddingLeft="8sp"
+                android:paddingTop="10sp"
+                android:paddingRight="8sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

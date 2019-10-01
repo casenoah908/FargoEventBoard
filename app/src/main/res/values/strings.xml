@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+    <resources>
+
+    <string name="app_name">EventBoard</string>
+
+    <string name="username">Username</string>
+
+    <string name="password">Password</string>
+
+    <string name="login">Login</string>
+
+    <string name="fargo_events">Fargo Events</string>
+
+    <string name="log_out">Log Out</string>
+
+    <string name="event">Event</string>
+
+    <string name="detail">Detail</string>
+
+    <string name="time">Time</string>
+
+    <string name="eventimage">eventImage</string>
+        <string name="event_description">Event Description</string>
+    <string name="location_address">Location Address</string>
+
+</resources>

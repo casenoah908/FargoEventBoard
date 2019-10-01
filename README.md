@@ -1,5 +1,5 @@
 # This Project Is Finished!
-I'm all done devloping an the android Event Board app! It's been great to learn new coding skills and accomplish the challenge provided. Let me know if you have any questions or need me to send my project in another format, and I'll be happy to do so! I hope to hear from you soon!
+I'm all done devloping an the android Event Board app! It's been great to learn new coding skills and accomplish the challenge provided. Let me know if you have any questions or need me to send my project in another format, and I'll be happy to do so! Finally, feel free to read through my changes between each push to the repository between the past few days I've worked on the project (Though I spent plenty of time beforehand learning Android Studio, GitHub, and other related resources for the project). I hope to hear from you soon! 
 
 # First Upload! 9/28/19
 Currently, I have developed the following few things:
